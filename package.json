@@ -1,0 +1,15 @@
+{
+  "name": "multi-mod-bot",
+  "version": "1.0.0",
+  "description": "ربات مدیریت چند گروه تلگرام - بن/سکوت/کیک همزمان روی همه گروه‌های ثبت‌شده",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
