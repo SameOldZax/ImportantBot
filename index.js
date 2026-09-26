@@ -5,11 +5,11 @@ const MSG = require('./messages');
 const BOT_TOKEN = process.env.BOT_TOKEN;
 const OWNER_ID = Number(process.env.OWNER_ID);
 
-if (!TOKEN) {
+if (!BOT_TOKEN) {
   console.error('خطا: BOT_TOKEN تنظیم نشده.');
   process.exit(1);
 }
-if (!FULL_OWNER_ID) {
+if (!OWNER_ID) {
   console.error('خطا: OWNER_ID تنظیم نشده (آیدی عددی مالک اصلی).');
   process.exit(1);
 }
