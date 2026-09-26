@@ -2,15 +2,15 @@ const TelegramBot = require('node-telegram-bot-api');
 const fs = require('fs');
 const MSG = require('./messages');
 
-const BOT_TOKEN = process.env.BOT_TOKEN;
-const OWNER_ID = Number(process.env.OWNER_ID);
+const TOKEN = process.env.TOKEN;
+const FULL_OWNER_ID = Number(process.env.FULL_OWNER_ID);
 
-if (!BOT_TOKEN) {
-  console.error('خطا: BOT_TOKEN تنظیم نشده.');
+if (!TOKEN) {
+  console.error('خطا: TOKEN تنظیم نشده.');
   process.exit(1);
 }
-if (!OWNER_ID) {
-  console.error('خطا: OWNER_ID تنظیم نشده (آیدی عددی مالک اصلی).');
+if (!FULL_OWNER_ID) {
+  console.error('خطا: FULL_OWNER_ID تنظیم نشده (آیدی عددی مالک اصلی).');
   process.exit(1);
 }
 
