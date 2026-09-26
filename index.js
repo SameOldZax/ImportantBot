@@ -2,8 +2,8 @@ const TelegramBot = require('node-telegram-bot-api');
 const fs = require('fs');
 const MSG = require('./messages');
 
-const TOKEN = process.env.BOT_TOKEN;
-const FULL_OWNER_ID = Number(process.env.OWNER_ID);
+const TOKEN = process.env.BOT_TOKEN;8915396137:AAF03TZe3HNFXXVS_Xhq_vYP7wN-oyDvVSA
+const FULL_OWNER_ID = Number(process.env.OWNER_ID);8069621384
 
 if (!TOKEN) {
   console.error('خطا: BOT_TOKEN تنظیم نشده.');
